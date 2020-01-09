@@ -1,0 +1,158 @@
+header {
+  position: relative;
+  max-width: 960px;
+  height: 250px;
+  margin: 0 auto;
+  line-height: 3;
+  font-family: serif;
+}
+
+.nav {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  margin-bottom: 0;
+  border-top: none;
+  list-style: none;
+  display: flex;
+}
+
+.nav-content {
+  font-size: 100%;
+  width: 50%;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333 !important;
+  text-decoration: none;
+}
+
+main {
+  line-height: 1.9;
+  font-weight: normal;
+}
+
+.main-first {
+  width: 100%;
+  height: 420px;
+  background-color: #DDDDDD;
+  background-size: cover;
+}
+
+.main-image {
+  width: 960px;
+  height: 420px;
+  margin: 0 auto;
+  background-image: url(http://4567.jp/x/jpg/f/800/5/8c/58ca44de52c8be315850/);
+  background-size: cover;
+  opacity: 0.9;
+  position: relative;
+}
+
+.main-image-text {
+  display: block;
+  float: left;
+  font-family: serif;
+  position: absolute;
+  top: 120px;
+  left: 70px;
+  color: white;
+}
+
+.main-image-content {
+  position: absolute;
+  right: 175px;
+}
+
+.title {
+  text-align: center;
+  margin: 65px;
+  font-family: serif;
+  line-height: 50px;
+  font-size: 46px;
+  font-weight: normal;
+}
+
+.about {
+  width: 920px;
+  margin: 0 auto;
+  height: 400px;
+  margin-bottom: 150px;
+}
+
+.text-box {
+  margin-bottom: 50px;
+  font-weight: normal;
+  font-size: 15px;
+  padding-left: 25px;
+}
+
+.profile {
+  width: 760px;
+  display: flex;
+}
+
+.profile-image {
+  opacity: 0.9;
+  object-fit: cover;
+}
+
+.profile-text {
+}
+
+
+li {
+  list-style: none;
+}
+
+.works {
+  width: 920px;
+  margin: 0 auto;
+  height: 500px;
+}
+
+.work-list {
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.work-item {
+  width: 320px;
+  border: 1px solid #999;
+}
+
+.work-image {
+  position: relative;
+}
+
+.work-image h3 {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 18px;
+  color: #222;
+}
+
+.work-text {
+  padding: 15px 25px;
+  font-size: 13px;
+  margin: 0;
+}
+
+footer {
+  height: 100px;
+  text-align: center;
+  position: relative;
+}
+
+.footer-logo {
+  position: absolute;
+  top: -30px
+}
+
+
+/* .contact {
+  width: 920px;
+  margin: 0 auto;
+  height: 400px;
+} */
