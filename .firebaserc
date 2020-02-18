@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "my-portfolio-site-cf85e"
+    "default": "my-portfolio-site-cf85e",
+    "y": "my-portfolio-site-cf85e"
   }
 }
