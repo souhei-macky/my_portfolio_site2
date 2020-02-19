@@ -1,0 +1,29 @@
+[debug] [2020-02-19T01:18:18.448Z] ----------------------------------------------------------------------
+[debug] [2020-02-19T01:18:18.450Z] Command:       /usr/local/bin/firebase /Users/makinosatsutaira/.cache/firebase/tools/lib/node_modules/firebase-tools/lib/bin/firebase serve
+[debug] [2020-02-19T01:18:18.450Z] CLI Version:   7.13.0
+[debug] [2020-02-19T01:18:18.450Z] Platform:      darwin
+[debug] [2020-02-19T01:18:18.450Z] Node Version:  v12.13.1
+[debug] [2020-02-19T01:18:18.456Z] Time:          Wed Feb 19 2020 10:18:18 GMT+0900 (GMT+09:00)
+[debug] [2020-02-19T01:18:18.456Z] ----------------------------------------------------------------------
+[debug] [2020-02-19T01:18:18.456Z] 
+[debug] [2020-02-19T01:18:18.470Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-02-19T01:18:18.471Z] > authorizing via signed-in user
+[debug] [2020-02-19T01:18:18.471Z] [iam] checking project my-portfolio-site-cf85e for permissions ["firebase.projects.get"]
+[debug] [2020-02-19T01:18:18.473Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-02-19T01:18:18.473Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-02-19T01:18:18.713Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-19T01:18:18.737Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/my-portfolio-site-cf85e:testIamPermissions  
+
+[debug] [2020-02-19T01:18:19.636Z] <<< HTTP RESPONSE 200
+[debug] [2020-02-19T01:18:19.638Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/my-portfolio-site-cf85e  
+ 
+[debug] [2020-02-19T01:18:20.142Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/makinosatsutaira/projects/my_portfolio_site2'...
+[info] 
+[debug] [2020-02-19T01:18:20.144Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/my-portfolio-site-cf85e/webApps/-/config  
+ 
+[debug] [2020-02-19T01:18:21.370Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
